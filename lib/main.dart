@@ -14,7 +14,7 @@ Widget getMyAppRootWidget() {
     theme: ThemeData(
       primarySwatch: Colors.deepPurple,
     ),
-    home: categoriesScreen(),
+    home: HomeScreen(),
     debugShowCheckedModeBanner: false,
   );
   return materialAppWidget;
